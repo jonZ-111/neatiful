@@ -8,7 +8,7 @@ export default function SiteFooter() {
         <div className="site-footer-brand">
           <Link href="/" aria-label="neatiful homepage">
             <Image
-              src="/neatiful_logo.png"
+              src="/neatiful-logo-white.png"
               alt="neatiful"
               width={180}
               height={56}

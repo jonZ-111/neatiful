@@ -19,7 +19,7 @@ body {
   margin: 0;
   background-color: var(--cream);
   color: var(--text);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-quicksand), Arial, Helvetica, sans-serif;
 }
 
 .site-header {
@@ -671,9 +671,7 @@ body {
 
 .site-footer-brand a {
   width: fit-content;
-  padding: 10px 14px;
   display: inline-flex;
-  background-color: var(--cream);
 }
 
 .site-footer-brand img {
