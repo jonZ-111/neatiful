@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# neatiful
 
-## Getting Started
+![neatiful logo](public/neatiful-logo-blue.png)
 
-First, run the development server:
+A responsive website for **neatiful**, a cleaning and home-organization brand serving the Austin and Houston areas.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The project presents neatiful’s services, brand identity, customer benefits, and free-estimate process through a polished, mobile-friendly experience.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Responsive homepage
+- Official Neatiful branding and custom favicon
+- Locally hosted Quicksand brand font
+- Residential and specialty service presentation
+- Dedicated free-estimate page
+- Microsoft Forms estimate-request workflow
+- Accessible navigation and semantic page structure
+- Customer privacy notice
+- Mobile, tablet, and desktop layouts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Services Presented
 
-## Learn More
+- Residential cleaning
+- Move-in and move-out cleaning
+- Deep and specialty cleaning
+- Carpet cleaning
+- Decluttering
+- Organization
 
-To learn more about Next.js, take a look at the following resources:
+## Technology
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Custom global CSS
+- Next.js Image optimization
+- Next.js App Router
+- Microsoft Forms
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+```text
+app/
+├── components/
+│   └── SiteFooter.tsx
+├── estimate/
+│   └── page.tsx
+├── fonts/
+│   └── Quicksand-Variable.ttf
+├── privacy/
+│   └── page.tsx
+├── globals.css
+├── icon.png
+├── layout.tsx
+└── page.tsx
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+public/
+├── neatiful-logo-blue.png
+├── neatiful-logo-white.png
+├── neatiful_heroimage.png
+└── other website assets
