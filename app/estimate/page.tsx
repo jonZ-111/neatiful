@@ -8,7 +8,7 @@ export default function EstimatePage() {
       <header className="estimate-page-header">
         <Link href="/" aria-label="Return to the neatiful homepage">
           <Image
-            src="/neatiful_logo.png"
+            src="/neatiful-logo-blue.png"
             alt="neatiful"
             width={180}
             height={56}
